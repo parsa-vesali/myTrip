@@ -8,12 +8,19 @@
     src: url(../public/fonts/Dana/woff2/DanaFaNum-DemiBold.woff2);
 }
 
+@font-face {
+    font-family: 'Morabba';
+    src: url(../public/fonts/Morabba/woff2/Morabba-Bold.woff2);
+}
+
 :root {
     --white-color: #fff;
     --dark-color: #020617;
-    --primary-color: ;
+    --primary-color: #10b981;
+    --primary-color-light: #a7f3d0;
     --secondary-color: ;
     --text-color: ;
+    --box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
 html {
@@ -33,7 +40,7 @@ html {
 body {
     font-family: 'Dana';
     line-height: 1.6;
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
 }
 
 a {
@@ -43,7 +50,7 @@ a {
 }
 
 a:hover {
-    color: #2563eb;
+    color: var(--primary-color);
 }
 
 img {
@@ -54,15 +61,29 @@ img {
 button,
 input,
 textarea {
+    background-color: transparent;
     font-family: 'Dana';
 }
+
+ul {
+    list-style: none;
+}
+
 
 /* ==================  components  ==================== */
 
 
 /* ==================  Helper  ==================== */
 
+.link {
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all 300ms ease;
+}
 
+.link:hover {
+    color: var(--primary-color);
+}
 
 
 
