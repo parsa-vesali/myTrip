@@ -19,7 +19,7 @@
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
-    direction: ltr;
+    direction: rtl;
 }
 
 * {
@@ -51,6 +51,11 @@ img {
     height: 100%;
 }
 
+button,
+input,
+textarea {
+    font-family: 'Dana';
+}
 
 /* ==================  components  ==================== */
 

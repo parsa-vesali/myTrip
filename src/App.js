@@ -1,9 +1,11 @@
 import React from 'react'
-import Home from './Pages/Home/Home'
+import routes from './Routes/Routes'
+import { useRoutes } from "react-router-dom";
 export default function App() {
+  const route = useRoutes(routes)
   return (
     <div>
-      <Home />
+      {route}
     </div>
   )
 }
