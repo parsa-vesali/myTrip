@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.navbar__list-link {
+    color: var(--white-color);
+    font-size: 1.8rem;
+}
