@@ -16,8 +16,8 @@
 :root {
     --white-color: #fff;
     --dark-color: #020617;
-    --primary-color: #10b981;
-    --primary-color-light: #a7f3d0;
+    --primary-color: #3b82f6;
+    --primary-color-light: #1e3a8a;
     --secondary-color: ;
     --text-color: ;
     --box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -72,6 +72,22 @@ ul {
 
 /* ==================  components  ==================== */
 
+.app__btn {
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5rem;
+    font-size: 1.7rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 1rem;
+    transition: all 300ms ease;
+}
+
+.app__btn:hover {
+    background-color: var(--primary-color-light);
+}
 
 /* ==================  Helper  ==================== */
 

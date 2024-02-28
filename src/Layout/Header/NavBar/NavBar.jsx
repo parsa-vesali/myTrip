@@ -10,7 +10,13 @@ export default function NavBar() {
   return (
     <div className="navbar">
       <div className="navbar__right">
-        <div className="navbar__logo"></div>
+        <div className="navbar__logo">
+          <img
+            src="./images/logo.png"
+            alt="logo"
+            className="navbar__logo-img"
+          />
+        </div>
         <ul className="navbar__list">
           {menuItem.map((item) => (
             <li key={item.id} className="navbar__list-item">

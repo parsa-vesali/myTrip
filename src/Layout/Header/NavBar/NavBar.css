@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 0;
+    margin: 2rem 0;
+    height: auto;
 }
 
 .navbar__right {
@@ -11,10 +12,17 @@
     column-gap: 2rem;
 }
 
+.navbar__logo-img {
+    width: 20rem;
+    height: 100%;
+    cursor: pointer;
+}
+
 .navbar__list {
     display: flex;
     align-items: center;
     column-gap: 3rem;
+    height: 100%;
 }
 
 .navbar__list-link {
