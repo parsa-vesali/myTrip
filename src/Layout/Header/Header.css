@@ -4,6 +4,7 @@
     background: linear-gradient(rgba(12, 12, 17, 0.77), rgba(14, 14, 20, 0.605)), url(../../../public/images/header.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     position: relative;
     z-index: 1;

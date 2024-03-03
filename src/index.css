@@ -83,6 +83,7 @@ ul {
     color: var(--white-color);
     border-radius: 1rem;
     transition: all 300ms ease;
+    cursor: pointer;
 }
 
 .app__btn:hover {
@@ -91,17 +92,21 @@ ul {
 
 /* ==================  Helper  ==================== */
 
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
 .link {
     text-decoration: none;
     color: var(--dark-color);
     transition: all 300ms ease;
+    cursor: pointer;
 }
 
 .link:hover {
     color: var(--primary-color);
 }
-
-
 
 
 @media screen and (max-width : 1400px) {}

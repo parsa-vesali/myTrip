@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { menuItem } from "../../../Data";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-
 import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 
 import "./NavBar.css";
@@ -24,6 +23,12 @@ export default function NavBar() {
                 {item.title}
                 {item.submenuIcon ? <KeyboardArrowDownIcon /> : ""}
               </Link>
+              <ul className="navbar__list-submenu">
+                <li className="navbar__list-submenu-item">آیتم 1</li>
+                <li className="navbar__list-submenu-item">آیتم 2</li>
+                <li className="navbar__list-submenu-item">آیتم 3</li>
+                <li className="navbar__list-submenu-item">آیتم 4</li>
+              </ul>
             </li>
           ))}
         </ul>

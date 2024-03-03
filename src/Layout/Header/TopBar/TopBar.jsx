@@ -27,14 +27,14 @@ export default function TopBar() {
           </span>
         </div>
         <div className="topbar__right-info">
-          <p className="topbar__right-social-info-text">
+          <div className="topbar__right-social-info-text">
             <LocalPhoneIcon />
-            98 992 008 7317
-          </p>
-          <p className="topbar__right-social-info-text">
+            <p>98 992 008 7317</p>
+          </div>
+          <div className="topbar__right-social-info-text">
+            <p>parsavesali84@gmail.com</p>
             <EmailIcon />
-            parsavesali84@gmail.com
-          </p>
+          </div>
         </div>
       </div>
       <div className="topbar__left">
@@ -43,7 +43,7 @@ export default function TopBar() {
             <LoginIcon />
             وارد شدن
           </button>
-          <button className="topbar__left-link">
+          <button className="topbar__left-link ">
             <PersonIcon />
             ثبت نام
           </button>
