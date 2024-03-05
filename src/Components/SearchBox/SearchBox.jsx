@@ -102,7 +102,12 @@ export default function SearchBox() {
           />
         </div>
       </div>
-      <div className="SearchBox__btn"></div>
+      <div className="SearchBox__btn">
+        <button className="SearchBox__btn-link app__btn">
+          <SearchIcon />
+          جستجو کنید
+        </button>
+      </div>
     </div>
   );
 }

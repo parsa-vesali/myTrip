@@ -1,6 +1,4 @@
 import React from "react";
-import FlightLandIcon from "@mui/icons-material/FlightLand";
-import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
 import "./SelectBox.css";
 export default function SelectBox({ mainTitle, icon, title, subtitle }) {
   return (
