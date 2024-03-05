@@ -1,0 +1,76 @@
+.SearchBox {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -8rem;
+    z-index: 99;
+    height: 20rem;
+    background-color: var(--white-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 1.5rem;
+}
+
+.SearchBox__category {
+    width: 100%;
+    position: absolute;
+    top: -5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SearchBox__main {
+    padding: 3rem 2rem;
+}
+
+.SearchBox__main-inputs {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.SearchBox__main-radio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SearchBox__main-radio p {
+    font-size: 2rem;
+}
+
+.SearchBox__category-boxes {
+    width: 60%;
+    background-color: var(--white-color);
+    padding: 1rem 1rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+.SearchBox__category-box {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5rem;
+    background: rgba(113, 103, 255, .15);
+    border-radius: 3rem;
+    color: #4F4B8B;
+    font-size: 1.7rem;
+}
+
+.SearchBox__category-box.active {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.SearchBox__category-box svg {
+    font-size: 2rem;
+}
+
+.SearchBox__category-box-text {}
+
+.SearchBox__btn {}
