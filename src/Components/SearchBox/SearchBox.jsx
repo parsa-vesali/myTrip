@@ -14,6 +14,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import Radio from "@mui/material/Radio";
 
 import "./SearchBox.css";
+import SelectBox from "./SelectBox/SelectBox";
 
 export default function SearchBox() {
   const [selectedValue, setSelectedValue] = React.useState("a");
@@ -74,7 +75,32 @@ export default function SearchBox() {
             <p>رفت و برگشت</p>
           </div>
         </div>
-        <div className="SearchBox__main-boxes"></div>
+        <div className="SearchBox__main-boxes">
+          <SelectBox
+            mainTitle={"از"}
+            icon={<FlightTakeoffIcon />}
+            title={"نیویورک"}
+            subtitle={"جفک - فرودگاه بین المللی جان اف کندی"}
+          />
+          <SelectBox
+            mainTitle={"به"}
+            icon={<FlightLandIcon />}
+            title={"لوس آنجلس"}
+            subtitle={"لکس - فرودگاه بین المللی لس آنجلس"}
+          />
+          <SelectBox
+            mainTitle={"تاریخ سفر"}
+            icon={<CalendarMonthIcon />}
+            title={"3/6/2024"}
+            subtitle={"Wednesday"}
+          />
+          <SelectBox
+            mainTitle={"مسافر , کلاس"}
+            icon={<PersonAddAltIcon />}
+            title={"2 مسافر"}
+            subtitle={"کسب و کار"}
+          />
+        </div>
       </div>
       <div className="SearchBox__btn"></div>
     </div>

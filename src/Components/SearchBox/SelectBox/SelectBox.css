@@ -1,0 +1,30 @@
+.SearchBox__main-box {
+    background: rgba(113, 103, 255, .15);
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    color: #4F4B8B;
+    width: 30rem;
+}
+
+.SearchBox__main-box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SearchBox__main-box-text {
+    font-size: 1.7rem;
+
+}
+
+.SearchBox__main-box-icon svg {
+    font-size: 4rem;
+    color: var(--primary-color)
+}
+
+.SearchBox__main-box-input {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+.SearchBox__main-box-subttitle {}
