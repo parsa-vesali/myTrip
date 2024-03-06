@@ -1,0 +1,31 @@
+.FeacherBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    row-gap: 1rem;
+}
+
+.FeacherBox__icon {
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FeacherBox__icon svg {
+    font-size: 5rem;
+    color: var(--white-color);
+}
+
+.FeacherBox__title {
+    color: var(--text-color);
+}
+
+.FeacherBox__text {
+    color: var(--gray-color);
+    text-align: center;
+}
