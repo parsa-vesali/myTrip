@@ -1,0 +1,26 @@
+.SectionTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.SectionTitle__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SectionTitle__btn {
+    border-radius: 5rem !important;
+    padding: .5rem 1rem !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.SectionTitle__title {
+    font-size: 3rem;
+    font-family: 'Dana Bold';
+    color: var(--text-color);
+}
